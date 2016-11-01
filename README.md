@@ -11,7 +11,7 @@
 ```javascript
 const maq = require('maq');
 var array = maq({ work: 3, sleep: 2 });
-// array == { 'sleep', 'work', 'work', ... }
+// [ 'sleep', 'work', 'work', ... ]
 ```
 
 Also, command line interface is avaiable.

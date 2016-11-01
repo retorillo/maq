@@ -1,6 +1,6 @@
 {
   "name": "maq",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Make queue (Array object) by specifing each number of elements.",
   "main": "index.js",
   "scripts": {

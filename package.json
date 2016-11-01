@@ -1,0 +1,38 @@
+{
+  "name": "maq",
+  "version": "1.0.0",
+  "description": "Make queue (Array object) by specifing each number of elements.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha --report lcovonly"
+  },
+  "bin": {
+    "maq": "bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/retorillo/maq.git"
+  },
+  "keywords": [
+    "list",
+    "random",
+    "shuffle",
+    "cli"
+  ],
+  "author": "retorillo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/retorillo/maq/issues"
+  },
+  "homepage": "https://github.com/retorillo/maq#readme",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "random-js": "^1.0.8"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.14",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.1.2",
+    "should": "^11.1.1"
+  }
+}
